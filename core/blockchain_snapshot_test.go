@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/consensus"
+	"github.com/chainupcloud/scroll-geth/consensus/ethash"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

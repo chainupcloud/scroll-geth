@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 var (

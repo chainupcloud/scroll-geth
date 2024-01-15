@@ -3,7 +3,7 @@
 
 // generated using:
 // forge flatten src/L1/rollup/L1MessageQueue.sol > flatten.sol
-// go run github.com/scroll-tech/go-ethereum/cmd/abigen@develop --sol flatten.sol --pkg rollup --out ./L1MessageQueue.go --contract L1MessageQueue
+// go run github.com/chainupcloud/scroll-geth/cmd/abigen@develop --sol flatten.sol --pkg rollup --out ./L1MessageQueue.go --contract L1MessageQueue
 
 package sync_service
 
@@ -11,11 +11,11 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/accounts/abi/bind"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
+	ethereum "github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/accounts/abi"
+	"github.com/chainupcloud/scroll-geth/accounts/abi/bind"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
 )
 
 // L1MessageQueueMetaData contains all meta data concerning the L1MessageQueue contract.

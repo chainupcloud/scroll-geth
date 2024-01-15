@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
-	"github.com/scroll-tech/go-ethereum/p2p/netutil"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/p2p/enr"
+	"github.com/chainupcloud/scroll-geth/p2p/netutil"
 )
 
 const (

@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/rlp"
+	"github.com/chainupcloud/scroll-geth/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the statewill be

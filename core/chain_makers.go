@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/consensus/misc"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/consensus"
+	"github.com/chainupcloud/scroll-geth/consensus/misc"
+	"github.com/chainupcloud/scroll-geth/core/state"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 // BlockGen creates blocks for testing.

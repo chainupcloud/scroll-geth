@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/ethdb/memorydb"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 func TestRollupSyncServiceStartAndStop(t *testing.T) {

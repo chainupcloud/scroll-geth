@@ -33,14 +33,14 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/crypto/codehash"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/ethdb/leveldb"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/crypto/codehash"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/ethdb/leveldb"
+	"github.com/chainupcloud/scroll-geth/ethdb/memorydb"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 func init() {

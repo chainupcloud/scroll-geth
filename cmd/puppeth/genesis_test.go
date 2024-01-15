@@ -26,7 +26,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/scroll-tech/go-ethereum/core"
+	"github.com/chainupcloud/scroll-geth/core"
 )
 
 // Tests the go-ethereum to Aleth chainspec conversion for the Stureby testnet.

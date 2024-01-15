@@ -33,10 +33,10 @@ import (
 	"github.com/peterh/liner"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/console/prompt"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/console/prompt"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // config contains all the configurations needed by puppeth that should be saved

@@ -25,14 +25,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/accounts/abi/bind"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/accounts/abi"
+	"github.com/chainupcloud/scroll-geth/accounts/abi/bind"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 func mockSign(addr common.Address, tx *types.Transaction) (*types.Transaction, error) { return tx, nil }

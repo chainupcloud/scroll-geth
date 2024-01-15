@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

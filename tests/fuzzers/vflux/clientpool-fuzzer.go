@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/les/vflux"
-	vfs "github.com/scroll-tech/go-ethereum/les/vflux/server"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
+	"github.com/chainupcloud/scroll-geth/ethdb/memorydb"
+	"github.com/chainupcloud/scroll-geth/les/vflux"
+	vfs "github.com/chainupcloud/scroll-geth/les/vflux/server"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/p2p/enr"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 var (

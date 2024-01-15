@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/consensus/misc"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/eth"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/node"
-	chainParams "github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rpc"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/consensus/misc"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/state"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/eth"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/node"
+	chainParams "github.com/chainupcloud/scroll-geth/params"
+	"github.com/chainupcloud/scroll-geth/rpc"
+	"github.com/chainupcloud/scroll-geth/trie"
 )
 
 // Register adds catalyst APIs to the node.

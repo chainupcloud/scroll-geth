@@ -24,13 +24,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/accounts/external"
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/accounts"
+	"github.com/chainupcloud/scroll-geth/accounts/external"
+	"github.com/chainupcloud/scroll-geth/accounts/keystore"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

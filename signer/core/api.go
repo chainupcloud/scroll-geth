@@ -25,16 +25,16 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/accounts/scwallet"
-	"github.com/scroll-tech/go-ethereum/accounts/usbwallet"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/internal/ethapi"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/signer/core/apitypes"
-	"github.com/scroll-tech/go-ethereum/signer/storage"
+	"github.com/chainupcloud/scroll-geth/accounts"
+	"github.com/chainupcloud/scroll-geth/accounts/keystore"
+	"github.com/chainupcloud/scroll-geth/accounts/scwallet"
+	"github.com/chainupcloud/scroll-geth/accounts/usbwallet"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/internal/ethapi"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/signer/core/apitypes"
+	"github.com/chainupcloud/scroll-geth/signer/storage"
 )
 
 const (

@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

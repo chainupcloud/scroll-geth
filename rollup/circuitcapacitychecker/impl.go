@@ -15,8 +15,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // mutex for concurrent CircuitCapacityChecker creations

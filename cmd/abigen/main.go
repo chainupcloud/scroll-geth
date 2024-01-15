@@ -27,13 +27,13 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/accounts/abi/bind"
-	"github.com/scroll-tech/go-ethereum/cmd/utils"
-	"github.com/scroll-tech/go-ethereum/common/compiler"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/internal/flags"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/accounts/abi"
+	"github.com/chainupcloud/scroll-geth/accounts/abi/bind"
+	"github.com/chainupcloud/scroll-geth/cmd/utils"
+	"github.com/chainupcloud/scroll-geth/common/compiler"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/internal/flags"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 var (

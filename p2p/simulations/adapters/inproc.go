@@ -26,13 +26,13 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/scroll-tech/go-ethereum/event"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/node"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/simulations/pipes"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth/event"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/node"
+	"github.com/chainupcloud/scroll-geth/p2p"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/p2p/simulations/pipes"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

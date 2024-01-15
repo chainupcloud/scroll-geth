@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 // TransactionArgs represents the arguments to construct a new transaction
@@ -45,7 +45,7 @@ type TransactionArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/scroll-tech/go-ethereum/issues/15628
+	// Issue detail: https://github.com/chainupcloud/scroll-geth/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input"`
 

@@ -1,4 +1,4 @@
-module github.com/scroll-tech/go-ethereum
+module github.com/chainupcloud/scroll-geth
 
 go 1.18
 

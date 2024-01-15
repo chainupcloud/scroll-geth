@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/event"
+	"github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/accounts/abi"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

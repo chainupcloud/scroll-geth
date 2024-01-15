@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/console/prompt"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/eth"
-	"github.com/scroll-tech/go-ethereum/eth/ethconfig"
-	"github.com/scroll-tech/go-ethereum/internal/jsre"
-	"github.com/scroll-tech/go-ethereum/miner"
-	"github.com/scroll-tech/go-ethereum/node"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/consensus/ethash"
+	"github.com/chainupcloud/scroll-geth/console/prompt"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/eth"
+	"github.com/chainupcloud/scroll-geth/eth/ethconfig"
+	"github.com/chainupcloud/scroll-geth/internal/jsre"
+	"github.com/chainupcloud/scroll-geth/miner"
+	"github.com/chainupcloud/scroll-geth/node"
 )
 
 const (

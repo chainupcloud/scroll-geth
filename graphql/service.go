@@ -22,8 +22,8 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 
-	"github.com/scroll-tech/go-ethereum/internal/ethapi"
-	"github.com/scroll-tech/go-ethereum/node"
+	"github.com/chainupcloud/scroll-geth/internal/ethapi"
+	"github.com/chainupcloud/scroll-geth/node"
 )
 
 type handler struct {

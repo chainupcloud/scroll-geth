@@ -19,9 +19,9 @@ package trie
 import (
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/ethdb"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/ethdb"
 )
 
 // preimageStore is the store for caching preimages of node key.

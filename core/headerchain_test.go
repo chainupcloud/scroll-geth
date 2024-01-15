@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/consensus"
+	"github.com/chainupcloud/scroll-geth/consensus/ethash"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

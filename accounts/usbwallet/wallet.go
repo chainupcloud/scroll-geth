@@ -27,12 +27,12 @@ import (
 
 	"github.com/karalabe/usb"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/accounts"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

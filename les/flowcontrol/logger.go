@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

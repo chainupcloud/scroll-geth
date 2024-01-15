@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/p2p/enr"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // RPC packet types

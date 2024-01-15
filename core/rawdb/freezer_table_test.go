@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/scroll-tech/go-ethereum/metrics"
+	"github.com/chainupcloud/scroll-geth/metrics"
 )
 
 func init() {

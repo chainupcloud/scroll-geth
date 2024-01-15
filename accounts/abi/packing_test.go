@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 type packUnpackTest struct {

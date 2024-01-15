@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 func TestTransaction(t *testing.T) {

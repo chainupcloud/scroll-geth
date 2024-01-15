@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

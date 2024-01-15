@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

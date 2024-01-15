@@ -29,9 +29,9 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/accounts"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

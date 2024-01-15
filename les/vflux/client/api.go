@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/les/utils"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
+	"github.com/chainupcloud/scroll-geth/les/utils"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

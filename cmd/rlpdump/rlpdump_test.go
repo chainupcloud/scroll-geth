@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {

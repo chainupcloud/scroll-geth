@@ -26,12 +26,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/p2p"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 const (

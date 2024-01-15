@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/bitutil"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/common/bitutil"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 // BlockTrace contains block execution traces and results required for rollers.

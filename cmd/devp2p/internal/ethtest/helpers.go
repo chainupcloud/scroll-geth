@@ -25,13 +25,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/eth/protocols/eth"
-	"github.com/scroll-tech/go-ethereum/internal/utesting"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/rlpx"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/eth/protocols/eth"
+	"github.com/chainupcloud/scroll-geth/internal/utesting"
+	"github.com/chainupcloud/scroll-geth/p2p"
+	"github.com/chainupcloud/scroll-geth/p2p/rlpx"
 )
 
 var (

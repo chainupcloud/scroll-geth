@@ -31,10 +31,10 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/crypto/ecies"
-	"github.com/scroll-tech/go-ethereum/p2p/simulations/pipes"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/crypto/ecies"
+	"github.com/chainupcloud/scroll-geth/p2p/simulations/pipes"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 type message struct {

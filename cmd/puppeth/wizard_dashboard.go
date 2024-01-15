@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

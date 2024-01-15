@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/p2p"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
 )
 
 func TestULCAnnounceThresholdLes2(t *testing.T) { testULCAnnounceThreshold(t, 2) }

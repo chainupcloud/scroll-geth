@@ -20,16 +20,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rollup/fees"
-	"github.com/scroll-tech/go-ethereum/tests"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/params"
+	"github.com/chainupcloud/scroll-geth/rollup/fees"
+	"github.com/chainupcloud/scroll-geth/tests"
 )
 
 // callTrace is the result of a callTracer run.

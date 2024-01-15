@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/p2p"
+	"github.com/chainupcloud/scroll-geth/metrics"
+	"github.com/chainupcloud/scroll-geth/p2p"
 )
 
 var (

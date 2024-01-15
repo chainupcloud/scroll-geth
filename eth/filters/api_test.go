@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

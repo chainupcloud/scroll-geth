@@ -24,12 +24,12 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/ethdb/leveldb"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/ethdb/leveldb"
+	"github.com/chainupcloud/scroll-geth/ethdb/memorydb"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

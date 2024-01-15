@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/accounts/abi"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

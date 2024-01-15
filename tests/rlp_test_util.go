@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

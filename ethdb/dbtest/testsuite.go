@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/ethdb"
+	"github.com/chainupcloud/scroll-geth/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

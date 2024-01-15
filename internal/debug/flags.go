@@ -29,9 +29,9 @@ import (
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/metrics/exp"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/metrics"
+	"github.com/chainupcloud/scroll-geth/metrics/exp"
 )
 
 var Memsize memsizeui.Handler

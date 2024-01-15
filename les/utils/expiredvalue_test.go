@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

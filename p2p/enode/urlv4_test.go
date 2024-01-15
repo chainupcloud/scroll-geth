@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/p2p/enr"
 )
 
 func init() {

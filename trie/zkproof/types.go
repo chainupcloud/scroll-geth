@@ -1,7 +1,7 @@
 package zkproof
 
 import (
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
 )
 
 type MPTWitnessType int

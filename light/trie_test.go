@@ -25,13 +25,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/chainupcloud/scroll-geth/consensus/ethash"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/state"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/params"
+	"github.com/chainupcloud/scroll-geth/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

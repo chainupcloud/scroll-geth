@@ -26,16 +26,16 @@ import (
 
 	zkt "github.com/scroll-tech/zktrie/types"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/state/snapshot"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/state/snapshot"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/metrics"
+	"github.com/chainupcloud/scroll-geth/params"
+	"github.com/chainupcloud/scroll-geth/rlp"
+	"github.com/chainupcloud/scroll-geth/trie"
 )
 
 type revision struct {
@@ -635,8 +635,8 @@ func (s *StateDB) createObject(addr common.Address) (newobj, prev *stateObject) 
 // CreateAccount is called during the EVM CREATE operation. The situation might arise that
 // a contract does the following:
 //
-//   1. sends funds to sha(account ++ (nonce + 1))
-//   2. tx_create(sha(account ++ nonce)) (note that this gets the address of 1)
+//  1. sends funds to sha(account ++ (nonce + 1))
+//  2. tx_create(sha(account ++ nonce)) (note that this gets the address of 1)
 //
 // Carrying over the balance ensures that Ether doesn't disappear.
 func (s *StateDB) CreateAccount(addr common.Address) {
@@ -694,7 +694,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/scroll-tech/go-ethereum/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/chainupcloud/scroll-geth/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

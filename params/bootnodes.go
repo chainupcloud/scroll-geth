@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/scroll-tech/go-ethereum/common"
+import "github.com/chainupcloud/scroll-geth/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

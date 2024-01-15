@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/forkid"
-	"github.com/scroll-tech/go-ethereum/p2p"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/forkid"
+	"github.com/chainupcloud/scroll-geth/p2p"
 )
 
 const (

@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/crypto"
+	"github.com/chainupcloud/scroll-geth/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/scroll-tech/go-ethereum/event"
+	"github.com/chainupcloud/scroll-geth/event"
 )
 
 func ExampleNewSubscription() {

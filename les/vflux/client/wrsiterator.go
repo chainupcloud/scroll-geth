@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/les/utils"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/nodestate"
+	"github.com/chainupcloud/scroll-geth/les/utils"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

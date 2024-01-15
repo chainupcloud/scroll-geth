@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/p2p/discover/v5wire"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/p2p/discover/v5wire"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/p2p/enr"
 )
 
 // readError represents an error during packet reading.

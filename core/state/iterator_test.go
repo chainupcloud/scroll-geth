@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

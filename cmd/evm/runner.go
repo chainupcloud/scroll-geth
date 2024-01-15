@@ -30,16 +30,16 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/scroll-tech/go-ethereum/cmd/evm/internal/compiler"
-	"github.com/scroll-tech/go-ethereum/cmd/utils"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/core/vm/runtime"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/cmd/evm/internal/compiler"
+	"github.com/chainupcloud/scroll-geth/cmd/utils"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/state"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/core/vm/runtime"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 var runCommand = cli.Command{

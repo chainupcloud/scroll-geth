@@ -25,7 +25,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 type storedCredential struct {

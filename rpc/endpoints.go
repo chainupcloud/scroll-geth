@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

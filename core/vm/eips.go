@@ -22,7 +22,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 var activators = map[int]func(*JumpTable){

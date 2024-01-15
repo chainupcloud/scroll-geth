@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/signer/core/apitypes"
-	"github.com/scroll-tech/go-ethereum/signer/fourbyte"
+	"github.com/chainupcloud/scroll-geth/signer/core/apitypes"
+	"github.com/chainupcloud/scroll-geth/signer/fourbyte"
 )
 
 func init() {

@@ -37,11 +37,11 @@ import (
 	"github.com/docker/docker/pkg/reexec"
 	"github.com/gorilla/websocket"
 
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/node"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/node"
+	"github.com/chainupcloud/scroll-geth/p2p"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 func init() {

@@ -21,9 +21,9 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/ethdb"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

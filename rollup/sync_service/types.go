@@ -4,9 +4,9 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
 )
 
 // We cannot use ethclient.Client directly as that would lead

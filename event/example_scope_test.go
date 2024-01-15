@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/event"
+	"github.com/chainupcloud/scroll-geth/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

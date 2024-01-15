@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/accounts/abi"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

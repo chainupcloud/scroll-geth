@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
 )
 
 type testDistReq struct {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

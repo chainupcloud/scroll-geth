@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

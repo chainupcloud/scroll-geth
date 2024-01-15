@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/scroll-tech/go-ethereum/issues"
-!define UPDATEURL "https://github.com/scroll-tech/go-ethereum/releases"
-!define ABOUTURL "https://github.com/scroll-tech/go-ethereum#ethereum-go"
+!define HELPURL "https://github.com/chainupcloud/scroll-geth/issues"
+!define UPDATEURL "https://github.com/chainupcloud/scroll-geth/releases"
+!define ABOUTURL "https://github.com/chainupcloud/scroll-geth#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/crypto"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

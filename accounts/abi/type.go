@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 // Type enumerator

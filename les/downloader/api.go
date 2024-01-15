@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/event"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/event"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

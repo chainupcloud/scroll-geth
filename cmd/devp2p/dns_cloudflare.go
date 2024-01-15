@@ -24,8 +24,8 @@ import (
 	"github.com/cloudflare/cloudflare-go"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/p2p/dnsdisc"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/p2p/dnsdisc"
 )
 
 var (

@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

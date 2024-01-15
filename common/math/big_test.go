@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

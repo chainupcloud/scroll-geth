@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/internal/testlog"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/p2p/discover/v5wire"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/internal/testlog"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/p2p/discover/v5wire"
+	"github.com/chainupcloud/scroll-geth/p2p/enode"
+	"github.com/chainupcloud/scroll-geth/p2p/enr"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

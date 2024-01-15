@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

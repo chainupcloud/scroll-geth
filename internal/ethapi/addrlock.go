@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 type AddrLocker struct {

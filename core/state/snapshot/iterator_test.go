@@ -25,8 +25,8 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/accounts/keystore"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

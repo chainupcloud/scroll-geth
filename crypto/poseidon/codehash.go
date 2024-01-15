@@ -3,7 +3,7 @@ package poseidon
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 const defaultPoseidonChunk = 3

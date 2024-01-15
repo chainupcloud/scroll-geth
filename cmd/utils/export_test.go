@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

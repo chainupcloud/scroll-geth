@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/math"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

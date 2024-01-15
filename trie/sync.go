@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/prque"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/crypto/codehash"
-	"github.com/scroll-tech/go-ethereum/ethdb"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/prque"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/crypto/codehash"
+	"github.com/chainupcloud/scroll-geth/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

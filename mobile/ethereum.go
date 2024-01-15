@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 // Subscription represents an event subscription where events are

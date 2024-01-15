@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/crypto/blake2b"
-	"github.com/scroll-tech/go-ethereum/crypto/bls12381"
-	"github.com/scroll-tech/go-ethereum/crypto/bn256"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/crypto/blake2b"
+	"github.com/chainupcloud/scroll-geth/crypto/bls12381"
+	"github.com/chainupcloud/scroll-geth/crypto/bn256"
+	"github.com/chainupcloud/scroll-geth/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"
@@ -309,9 +309,10 @@ var (
 // modexpMultComplexity implements bigModexp multComplexity formula, as defined in EIP-198
 //
 // def mult_complexity(x):
-//    if x <= 64: return x ** 2
-//    elif x <= 1024: return x ** 2 // 4 + 96 * x - 3072
-//    else: return x ** 2 // 16 + 480 * x - 199680
+//
+//	if x <= 64: return x ** 2
+//	elif x <= 1024: return x ** 2 // 4 + 96 * x - 3072
+//	else: return x ** 2 // 16 + 480 * x - 199680
 //
 // where is x is max(length_of_MODULUS, length_of_BASE)
 func modexpMultComplexity(x *big.Int) *big.Int {

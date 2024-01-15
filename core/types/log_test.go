@@ -24,8 +24,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
 )
 
 var unmarshalLogTests = map[string]struct {

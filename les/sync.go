@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/les/downloader"
-	"github.com/scroll-tech/go-ethereum/light"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/les/downloader"
+	"github.com/chainupcloud/scroll-geth/light"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

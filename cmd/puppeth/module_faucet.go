@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

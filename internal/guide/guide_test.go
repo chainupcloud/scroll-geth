@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/chainupcloud/scroll-geth/accounts/keystore"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/core/types"
 )
 
 // Tests that the account management snippets work correctly.

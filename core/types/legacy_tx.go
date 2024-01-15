@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

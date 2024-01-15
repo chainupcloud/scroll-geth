@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/chainupcloud/scroll-geth/accounts/keystore"
+	"github.com/chainupcloud/scroll-geth/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

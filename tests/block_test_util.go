@@ -25,18 +25,18 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/consensus"
+	"github.com/chainupcloud/scroll-geth/consensus/ethash"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/state"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/params"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 // A BlockTest checks handling of entire blocks.
@@ -174,17 +174,18 @@ func (t *BlockTest) genesis(config *params.ChainConfig) *core.Genesis {
 	}
 }
 
-/* See https://github.com/ethereum/tests/wiki/Blockchain-Tests-II
+/*
+See https://github.com/ethereum/tests/wiki/Blockchain-Tests-II
 
-   Whether a block is valid or not is a bit subtle, it's defined by presence of
-   blockHeader, transactions and uncleHeaders fields. If they are missing, the block is
-   invalid and we must verify that we do not accept it.
+	Whether a block is valid or not is a bit subtle, it's defined by presence of
+	blockHeader, transactions and uncleHeaders fields. If they are missing, the block is
+	invalid and we must verify that we do not accept it.
 
-   Since some tests mix valid and invalid blocks we need to check this for every block.
+	Since some tests mix valid and invalid blocks we need to check this for every block.
 
-   If a block is invalid it does not necessarily fail the test, if it's invalidness is
-   expected we are expected to ignore it and continue processing and then validate the
-   post state.
+	If a block is invalid it does not necessarily fail the test, if it's invalidness is
+	expected we are expected to ignore it and continue processing and then validate the
+	post state.
 */
 func (t *BlockTest) insertBlocks(blockchain *core.BlockChain) ([]btBlock, error) {
 	validBlocks := make([]btBlock, 0)

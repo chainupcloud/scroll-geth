@@ -36,10 +36,10 @@ import (
 	"github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/simplelru"
 
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/chainupcloud/scroll-geth/consensus"
+	"github.com/chainupcloud/scroll-geth/log"
+	"github.com/chainupcloud/scroll-geth/metrics"
+	"github.com/chainupcloud/scroll-geth/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

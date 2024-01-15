@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/les/utils"
+	"github.com/chainupcloud/scroll-geth/common/mclock"
+	"github.com/chainupcloud/scroll-geth/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

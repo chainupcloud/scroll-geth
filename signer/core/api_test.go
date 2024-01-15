@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/internal/ethapi"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/signer/core"
-	"github.com/scroll-tech/go-ethereum/signer/core/apitypes"
-	"github.com/scroll-tech/go-ethereum/signer/fourbyte"
-	"github.com/scroll-tech/go-ethereum/signer/storage"
+	"github.com/chainupcloud/scroll-geth/accounts"
+	"github.com/chainupcloud/scroll-geth/accounts/keystore"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/internal/ethapi"
+	"github.com/chainupcloud/scroll-geth/rlp"
+	"github.com/chainupcloud/scroll-geth/signer/core"
+	"github.com/chainupcloud/scroll-geth/signer/core/apitypes"
+	"github.com/chainupcloud/scroll-geth/signer/fourbyte"
+	"github.com/chainupcloud/scroll-geth/signer/storage"
 )
 
-//Used for testing
+// Used for testing
 type headlessUi struct {
 	approveCh chan string // to send approve/deny
 	inputCh   chan string // to send password

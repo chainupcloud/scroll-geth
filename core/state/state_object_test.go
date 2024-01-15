@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/chainupcloud/scroll-geth/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

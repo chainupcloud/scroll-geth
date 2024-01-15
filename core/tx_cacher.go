@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/chainupcloud/scroll-geth/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

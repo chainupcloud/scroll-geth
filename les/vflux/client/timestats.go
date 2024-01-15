@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/les/utils"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/chainupcloud/scroll-geth/les/utils"
+	"github.com/chainupcloud/scroll-geth/rlp"
 )
 
 const (

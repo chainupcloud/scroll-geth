@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/scroll-tech/go-ethereum/ethdb"
+	"github.com/chainupcloud/scroll-geth/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

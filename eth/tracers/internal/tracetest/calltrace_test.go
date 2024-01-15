@@ -26,23 +26,23 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/eth/tracers"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/rollup/fees"
-	"github.com/scroll-tech/go-ethereum/tests"
+	"github.com/chainupcloud/scroll-geth/common"
+	"github.com/chainupcloud/scroll-geth/common/hexutil"
+	"github.com/chainupcloud/scroll-geth/common/math"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/core/rawdb"
+	"github.com/chainupcloud/scroll-geth/core/types"
+	"github.com/chainupcloud/scroll-geth/core/vm"
+	"github.com/chainupcloud/scroll-geth/crypto"
+	"github.com/chainupcloud/scroll-geth/eth/tracers"
+	"github.com/chainupcloud/scroll-geth/params"
+	"github.com/chainupcloud/scroll-geth/rlp"
+	"github.com/chainupcloud/scroll-geth/rollup/fees"
+	"github.com/chainupcloud/scroll-geth/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/scroll-tech/go-ethereum/eth/tracers/js"
-	_ "github.com/scroll-tech/go-ethereum/eth/tracers/native"
+	_ "github.com/chainupcloud/scroll-geth/eth/tracers/js"
+	_ "github.com/chainupcloud/scroll-geth/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

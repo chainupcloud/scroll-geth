@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/eth/downloader"
-	"github.com/scroll-tech/go-ethereum/eth/ethconfig"
-	"github.com/scroll-tech/go-ethereum/ethclient"
-	"github.com/scroll-tech/go-ethereum/ethstats"
-	"github.com/scroll-tech/go-ethereum/internal/debug"
-	"github.com/scroll-tech/go-ethereum/les"
-	"github.com/scroll-tech/go-ethereum/node"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/nat"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/chainupcloud/scroll-geth/core"
+	"github.com/chainupcloud/scroll-geth/eth/downloader"
+	"github.com/chainupcloud/scroll-geth/eth/ethconfig"
+	"github.com/chainupcloud/scroll-geth/ethclient"
+	"github.com/chainupcloud/scroll-geth/ethstats"
+	"github.com/chainupcloud/scroll-geth/internal/debug"
+	"github.com/chainupcloud/scroll-geth/les"
+	"github.com/chainupcloud/scroll-geth/node"
+	"github.com/chainupcloud/scroll-geth/p2p"
+	"github.com/chainupcloud/scroll-geth/p2p/nat"
+	"github.com/chainupcloud/scroll-geth/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/scroll-tech/go-ethereum/metrics"
+	"github.com/chainupcloud/scroll-geth/metrics"
 )
 
 var (
